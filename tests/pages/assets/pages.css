@@ -2,6 +2,26 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #000000;
+    color: #ffffff; 
+}
+
+.form-control {
+    background-color: #000000;
+    color: #ffffff; 
+}
+
+.white-mode {
+    background-color: #ffffff;
+    color: #1f1f1f;
+}
+
+.white-mode .form-control{
+    background-color: #ffffff;
+    color: #1f1f1f;
+}
+
 .flex-row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -128,3 +148,4 @@
 textarea {
     width: 100%;
 }
+
